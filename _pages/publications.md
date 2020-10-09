@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <p align="center">
-  <img src="/assets/publication-img/toy_pareto_front_many_rays.png" width="550" />
+  <img src="/assets/publication/toy_pareto_front_many_rays.png" width="550" />
 </p>
 <b>Learning the Pareto Front with Hypernetworks.</b>
 <br>
