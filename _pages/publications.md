@@ -8,7 +8,7 @@ author_profile: true
 <p align="center">
   <img src="/assets/publication/toy_pareto_front_many_rays.png" width="550" />
 </p>
-<b>Learning the Pareto Front with Hypernetworks.</b>
+<b>Learning the Pareto Front with Hypernetworks (ICLR 2021).</b>
 <br>
 <span style="font-size:.8em;">
 [Aviv Navon<a>\*</a>](https://avivnavon.github.io/), 
