@@ -8,4 +8,4 @@ I am a MSc student at Bar Ilan University, working at ChechikLab under the super
 <br>
 <h3>Recent Updates</h3>
 
-- [Learning the Pareto Front with Hypernetworks](https://avivnavon.github.io/ParetoHN/) accepted to **ICLR 2021**
+<ul><li><a href="https://avivnavon.github.io/ParetoHN/">Learning the Pareto Front with Hypernetworks</a>  accepted to <strong>ICLR 2021</strong></li></ul>
