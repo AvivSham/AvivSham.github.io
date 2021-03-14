@@ -42,3 +42,23 @@ author_profile: true
 [[code]](https://github.com/ofrikleinfeld/ObjectPermanence)
 [[bibtex]](/bib/object_permanence.bib)
 </span>
+
+---
+
+<p align="center">
+  <img src="/pfedhn/resources/pfedhn.PNG" width="550" />
+</p>
+<b>Personalized Federated Learning using Hypernetworks (Under Review).</b>
+<br>
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://chechiklab.biu.ac.il/~anavon/), 
+[Aviv Navon<a>\*</a>](https://chechiklab.biu.ac.il/~achitui/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+<br>(* equal contribution)
+<br>
+[[paper]](https://arxiv.org/abs/2003.10469) 
+[[project page]](https://avivnavon.github.io/pfedhn/)
+[[code]](https://github.com/AvivSham/pFedHN)
+[[bibtex]](/bib/pfedhn.bib)
+</span>
