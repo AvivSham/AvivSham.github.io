@@ -8,7 +8,7 @@ author_profile: true
 <p align="center">
   <img src="/pfedhn/resources/pfedhn.PNG" width="550" />
 </p>
-<b>Personalized Federated Learning using Hypernetworks (Under Review).</b>
+<b>Personalized Federated Learning using Hypernetworks (ICML 2021).</b>
 <br>
 <span style="font-size:.8em;">
 [Aviv Shamsian<a>\*</a>](https://chechiklab.biu.ac.il/~anavon/), 
