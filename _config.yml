@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Aviv Shamsian"
   avatar : "/assets/images/profile_.jpg"
-  bio    : "MSc Student at BIU // Computer Vision Researcher"
+  bio    : "PhD Candidate at BIU // Computer Vision Researcher"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
