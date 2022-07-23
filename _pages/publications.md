@@ -27,6 +27,28 @@ author_profile: true
 </span>
 
 ---
+
+<p align="center">
+  <img src="/assets/publication/pfedgp.png" width="550" />
+</p>
+<b>Personalized Federated Learning with Gaussian Processes.</b>
+<br>NeurIPS, 2021.<br>
+<br>
+<span style="font-size:.8em;">
+[Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
+[Aviv Shamsian](https://avivsham.github.io/),
+[Aviv Navon](https://avivnavon.github.io/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2106.15482) 
+<!-- [[project page]](https://idanachituve.github.io/projects/pFedGP/) -->
+[[code]](https://github.com/IdanAchituve/pFedGP)
+<!-- [[bibtex]](/bib/pfedgp.bib) -->
+</span>
+
+
+---
 <p align="center">
   <img src="/pfedhn/resources/pfedhn.PNG" width="550" />
 </p>
