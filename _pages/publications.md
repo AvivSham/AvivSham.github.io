@@ -6,6 +6,28 @@ author_profile: true
 ---
 
 <p align="center">
+  <img src="/assets/publication/nash-mtl.png" width="550" />
+</p>
+<b>Multi-Task Learning as a Bargaining Game.</b>
+<br>ICML, 2022.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon*](https://avivnavon.github.io/),
+[Aviv Shamsian*](https://avivsham.github.io/),
+[Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
+[Haggai Maron](https://haggaim.github.io/),
+[Kenji Kawaguchi](https://www.comp.nus.edu.sg/cs/people/kenji/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2202.01017) 
+[[project page]](https://wandb.ai/geekyrakshit/multi-task-learning/reports/Multi-Task-Learning-as-a-Bargaining-Game--VmlldzoyMDgzNjI2)
+[[code]](https://github.com/AvivNavon/nash-mtl)
+[[bibtex]](/bib/nash-mtl.bib)
+</span>
+
+---
+<p align="center">
   <img src="/pfedhn/resources/pfedhn.PNG" width="550" />
 </p>
 <b>Personalized Federated Learning using Hypernetworks (ICML 2021).</b>

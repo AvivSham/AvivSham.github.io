@@ -8,5 +8,6 @@ I am a MSc student at Bar Ilan University, working at ChechikLab under the super
 <br>
 <h4>Recent Updates</h4>
 <hr>
+<ul><li><a href="https://arxiv.org/abs/2106.15482">Personalized Federated Learning with Gaussian Processes</a> accepted to <strong>NeurIPS 2021</strong></li></ul>
 <ul><li><a href="https://avivsham.github.io/pfedhn/">Personalized Federated Learning using Hypernetworks</a> accepted to <strong>ICML 2021</strong></li></ul>
 <ul><li><a href="https://avivnavon.github.io/ParetoHN/">Learning the Pareto Front with Hypernetworks</a>  accepted to <strong>ICLR 2021</strong></li></ul>
