@@ -12,8 +12,8 @@ author_profile: true
 <br>ICML, 2022.<br>
 <br>
 <span style="font-size:.8em;">
-[Aviv Navon*](https://avivnavon.github.io/),
-[Aviv Shamsian*](https://avivsham.github.io/),
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
 [Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
 [Haggai Maron](https://haggaim.github.io/),
 [Kenji Kawaguchi](https://www.comp.nus.edu.sg/cs/people/kenji/),
