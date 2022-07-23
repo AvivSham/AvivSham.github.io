@@ -52,7 +52,8 @@ author_profile: true
 <p align="center">
   <img src="/pfedhn/resources/pfedhn.PNG" width="550" />
 </p>
-<b>Personalized Federated Learning using Hypernetworks (ICML 2021).</b>
+<b>Personalized Federated Learning using Hypernetworks.</b>
+<br>ICML 2021.<br>
 <br>
 <span style="font-size:.8em;">
 [Aviv Shamsian<a>\*</a>](https://chechiklab.biu.ac.il/~anavon/), 
@@ -72,7 +73,8 @@ author_profile: true
 <p align="center">
   <img src="/assets/publication/toy_pareto_front_many_rays.png" width="550" />
 </p>
-<b>Learning the Pareto Front with Hypernetworks (ICLR 2021).</b>
+<b>Learning the Pareto Front with Hypernetworks.</b>
+<br>ICLR 2021.<br>
 <br>
 <span style="font-size:.8em;">
 [Aviv Navon<a>\*</a>](https://avivnavon.github.io/), 
@@ -92,7 +94,8 @@ author_profile: true
 <p align="center">
   <img src="/assets/publication/opnet_arch.png" width="550" />
 </p>
-<b>Learning Object Permanence From Video (ECCV 2020).</b>
+<b>Learning Object Permanence From Video.</b>
+<br>ECCV 2020.<br>
 <br>
 <span style="font-size:.8em;">
 [Aviv Shamsian<a>\*</a>](https://chechiklab.biu.ac.il/~anavon/), 
