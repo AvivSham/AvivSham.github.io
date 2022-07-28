@@ -5,7 +5,27 @@ permalink: /publications/
 author_profile: true
 ---
 
+<p align="center">
+  <img src="/assets/publication/composer.png" width="550" />
+</p>
+<b>COMPOSER: Compositional Reasoning of Group Activity in Videos with Keypoint-Only Modality.</b>
+<br>ECCV, 2022.<br>
+<br>
+<span style="font-size:.8em;">
+[Honglu Zhou](https://sites.google.com/view/hongluzhou/),
+[Asim Kadav](https://asim.ai/),
+[Aviv Shamsian](https://avivsham.github.io/),
+[Shijie Geng](https://scholar.google.com/citations?user=wujqvGYAAAAJ&hl=en),
+[Long Zaho](https://garyzhao.github.io/),
+[Ting Liu](https://scholar.google.com/citations?user=4wSfAIQAAAAJ&hl=en),
+[Mubbasir Kapadia](https://www.cs.rutgers.edu/people/professors/details/mubbasir-kapadia)
+[Hans Peter Graf](https://www.linkedin.com/in/hans-peter-graf-a2612212)
 
+<br>
+[[paper]](https://arxiv.org/abs/2112.05892)
+[[code]](https://github.com/hongluzhou/composer)
+[[bibtex]](/bib/composer.bib)
+</span>
 
 ---
 
