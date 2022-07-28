@@ -24,7 +24,6 @@ author_profile: true
 [[paper]](https://arxiv.org/abs/2112.05892)
 [[code]](https://github.com/hongluzhou/composer)
 [[bibtex]](/bib/composer.bib)
-</span>
 
 ---
 
