@@ -20,7 +20,6 @@ author_profile: true
 [Ting Liu](https://scholar.google.com/citations?user=4wSfAIQAAAAJ&hl=en),
 [Mubbasir Kapadia](https://www.cs.rutgers.edu/people/professors/details/mubbasir-kapadia)
 [Hans Peter Graf](https://www.linkedin.com/in/hans-peter-graf-a2612212)
-
 <br>
 [[paper]](https://arxiv.org/abs/2112.05892)
 [[code]](https://github.com/hongluzhou/composer)
