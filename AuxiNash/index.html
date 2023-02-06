@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Auxiliary Learning as an Asymmetric Bargaining Game">
+    <meta name="author" content="
+    Aviv Shamsian,
+    Aviv Navon,
+    Neta Glazer,
+    Kenji Kawaguchi,
+    Gal Chechik,
+    Ethan Fetaya
+    "
+    >
+
+    <title>Auxiliary Learning as an Asymmetric Bargaining Game</title>
+    <!-- Bootstrap core CSS -->
+    <!--link href="bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+</head>
+
+<!-- MathJax -->
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container"></div>
+    <!-- <h1> <b>!!!WIP!!!</b> </h1> -->
+    <h1>Auxiliary Learning as an Asymmetric Bargaining Game</h1>
+<!--    <h3>ICLR 2021</h3>-->
+    <hr>
+    <p class="authors">
+        <tr>
+            <span style="font-size:24px"><a href="https://avivsham.github.io/">Aviv Shamsian*</a><sup>1</sup></span>&nbsp;
+            <span style="font-size:24px"><a href="https://avivnavon.github.io/">Aviv Navon*</a><sup>1,2</sup></span>
+            <span style="font-size:24px"><a href="https://www.linkedin.com/in/neta-glazer-bb5b971b1?originalSubdomain=il">Neta Glazer</a><sup>1,2</sup></span>
+            <span style="font-size:24px"><a href="https://www.comp.nus.edu.sg/cs/people/kenji/">Kenji Kawaguchi</a><sup>3</sup></span>&nbsp;
+        <tr>
+            <span style="font-size:24px"><a href="https://chechiklab.biu.ac.il/">Gal Chechik</a><sup>1,4</sup></span> &nbsp;
+            <span style="font-size:24px"><a href="http://www.eng.biu.ac.il/fetayae/">Ethan Fetaya</a><sup>1</sup></span> &nbsp;
+    </tr>
+    </p>
+
+    <span style="font-size:18px">* equal contribution</span>
+    <br>
+    <br>
+    <table align=center>
+        <tr>
+            <td align=center>
+                <center>
+                    <span style="font-size:20px">
+                        <sup>1</sup>Bar-Ilan University
+                        <br>
+                        <sup>2</sup>Aiola
+                        <br>
+                        <sup>2</sup>National University of Singapore
+                        <br>
+                        <sup>2</sup>NVIDIA Research
+                    </span>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <div class="btn-group" role="group" aria-label="Top menu">
+        <a class="btn btn-primary" href="https://arxiv.org/abs/2301.13501">Paper</a>
+<!--        <a class="btn btn-primary" href="https://github.com/AvivSham/pFedHN">Code</a>-->
+    </div>
+
+    
+
+</div>
+
+<div class="container">
+    <div class="section">
+         <figure>
+            <center>
+                <figcaption>Figure 1. Visualization of the update direction obtained by AuxiNash (Blue).</figcaption>
+                <img src="resources/update_direction.png" align="middle" style='max-width: 100%'>
+            </center>
+        </figure>
+        <hr>
+        <p>
+            Auxiliary learning is an effective method for enhancing the generalization capabilities of trained models,
+            particularly when dealing with small datasets. However, this approach may present several difficulties:
+            (i) optimizing multiple objectives can be more challenging, and
+            (ii) how to balance the auxiliary tasks to best assist the main task is unclear.
+            <br>
+            <br>
+            In this work, we propose a novel approach, named <i>AuxiNash</i>, for balancing tasks in auxiliary
+            learning by formalizing the problem as <i>generalized bargaining game with asymmetric task bargaining power</i>.
+            Furthermore, we describe an efficient procedure for learning the bargaining power of tasks based on their
+            contribution to the performance of the main task and derive theoretical guarantees for its convergence.
+            Finally, we evaluate <i>AuxiNash</i> on multiple multi-task benchmarks and find that it consistently
+            outperforms competing methods.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Auxiliary Learning</h2>
+        <hr>
+        <p>
+            Auxiliary learning has a large potential to improve learning in the low data regime, but it gives rise to
+            two main challenges:  Defining the joint optimization problem and performing the optimization efficiently.
+            (1) First, given a main task at hand, it is not clear <i>which</i> auxiliary tasks would benefit the main
+            task and how tasks should be <i>combined</i> into a joint optimization objective.
+            (2) Second, training with auxiliary tasks involves optimizing multiple objectives simultaneously;
+            While training with multiple tasks can potentially improve performance via better generalization, it often
+            underperforms compared to single-task models.
+            Previous auxiliary learning research focused mainly on the first challenge: namely, weighting and combining
+            auxiliary tasks. The second challenge, optimizing the main task in the presence of auxiliary tasks, has been
+            less explored.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>AuxiNash</h2>
+        <hr>
+        <p>
+            In this work we propose a novel approach named AuxiNash that takes inspiration from recent advances in MTL
+            optimization as a cooperative bargaining game (Nash-MTL). The idea is to view a gradient update as a shared
+            resource, view each task as a player in a game, and have players compete over making the joint gradient
+            similar to their own task gradient. In Nash-MTL, tasks play a symmetric role, since no task is particularly
+            favorable. This leads to a bargaining solution that is proportionally fair across tasks.
+            In contrast, task symmetry no longer holds in auxiliary learning, where there is a clear distinction between
+            the primary task and the auxiliary ones. As such, we propose to view auxiliary learning as an
+            <i>asymmetric bargaining game</i>. Specifically, we consider gradient aggregation as a cooperative
+            bargaining game where each player represents a task with varying bargaining power. We formulate gradient
+            update using asymmetric Nash bargaining solution which takes into account varying task preferences.
+            By generalizing Nash-MTL to asymmetric games with AuxiNash, we can efficiently direct optimization solution
+            towards various areas of the Pareto front.
+        </p>
+    </div>
+
+    <div class="section">
+        <center><h2>Experiments</h2></center>
+        <hr>
+        <h3>Illustrative Example</h3>
+        <hr>
+        <p>
+            <figure>
+            <center>
+                <figcaption>Figure 2. <i>Illustrative Example</i>. A regression problem in $\mathbb{R}^2$ with two
+                    auxiliary tasks, one helpful and one harmful.</figcaption>
+                <img src="resources/illustrative.png" align="middle" style='max-width: 100%', width="700", height="350">
+            </center>
+            </figure>
+
+        We consider a regression problem with parameters $W^T=(w_1, w_2)\in\mathbb{R}^2$, fully shared among tasks.
+        The optimal parameters for the main and helpful auxiliary tasks are $W^\star$, while the optimal parameters for
+        the harmful auxiliary are $\tilde{W}\neq W^\star$. The main task is sampled from a Normal distribution
+        $N({W^\star}^T x, \sigma_{\text{main}})$, with $\sigma_{\text{main}} > \sigma_{\text{h}}$ where $\sigma_{\text{h}}$
+        denotes the standard deviation for the noise of the helpful auxiliary.
+        The change in the task preference throughout the optimization process is depicted in the left panel of
+        Figure 2. AuxiNash identify the helpful tasks and fully ignore the harmful ones. In addition, Figure 2
+        right panel presents the main task's loss landscape, along with the optimal solution ($W^\star$, marked
+        $\blacktriangle$), the optimal training set solution of the main  task alone (${\scriptstyle \blacksquare}$)
+        and the solution obtained by AuxiNash (marked $\bullet$). While using the training data alone with no auxiliary
+        information yields a solution that generalizes poorly, AuxiNash converges to a solution with large proximity to
+        the optimal solution $W^\star$,
+
+            
+        </p>
+    <!-- <div class="section"> -->
+        <br>
+        <h3>Controlling Task Preference</h3>
+        <hr>
+        <p>
+            <figure>
+            <center>
+                <figcaption>Figure 3. <i>Task Preferences.</i> By varying the preference vector $p$, we show that AuxiNash can control the trade-off between tasks.</figcaption>
+                <img src="resources/multimnist.png" align="middle" style='max-width: 80%', width="480", height="360">
+            </center>
+            </figure>
+
+        Here, we show that controlling the preference vector can be used to steer the optimization outcome to different
+        parts of the Pareto front, compared to the NashMTL baseline.
+        We consider MTL setup with 2 image classification tasks and use the Multi-MNIST dataset.
+        We run AuxiNash $11$ times with varying preference vector values $p$ and fix it throughout the training.
+        For both tasks we report the classification accuracy. For Nash-MTL we run the experiments with different seed values.
+        Figure 3 shows the results. AuxiNash reaches a diverse set of solutions across the Pareto front while Nash-MTL
+        solutions are all relatively similar due to its symmetry property.
+        </p>
+        
+    </div>
+
+    <!-- <div class="section"> -->
+        <br>
+        <h3>Scene Understanding</h3>
+        <hr>
+        <p>
+            <figure>
+            <center>
+                <figcaption>Table 1. <i>NYUv2.</i>  Test performance for three tasks: semantic segmentation, depth estimation, and surface normal.</figcaption>
+                <img src="resources/nyuv2.png" align="middle" style='max-width: 80%'>
+            </center>
+            </figure>
+        Here, we evaluate AuxiNash on Cityscapes and NYUv2 datasets.
+        The indoor scene NYUv2 dataset contains 3 tasks: 13 classes semantic segmentation, depth estimation,
+        and surface normal prediction.
+        We also use the Cityscapes dataset with 3 tasks: 19-class semantic segmentation,
+        disparity (inverse depth) estimation, and 10-class part segmentation.
+        The results are presented in Table 1 and Table 2.
+        <br>
+        Observing the results, we can see our approach AuxiNash outperforms other approaches by a significant margin.
+        <br>
+        <br>
+            <figure>
+            <center>
+                <figcaption>Table 2. <i>Cityscapes.</i>  Test performance for three tasks: 19-class
+semantic segmentation, 10-class part segmentation, and disparity.</figcaption>
+                <img src="resources/cityscapes.png" align="middle" style='max-width: 80%', width="580">
+            </center>
+            </figure>
+        </p>
+
+
+        <br>
+        <h3>Semi Supervised Learning with SSL Auxiliaries</h3>
+        <hr>
+        <p>
+        We evaluate AuxiNash on a Self-supervised Semi-supervised Learning setting.
+        We use CIFAR-10 dataset to form 3 tasks. We set the supervised classification as the main task along with two
+        self-supervised learning (SSL) tasks used as auxiliaries.
+        For the supervised task we randomly allocate samples from the training set.
+        We repeat this experiment twice with $5K$ and $10K$ labeled training examples.
+        <br>
+        The results are presented in Table 3. AuxiNash significantly outperforms most baselines.
+            <figure>
+            <center>
+                <figcaption>Table 3. <i>CIFAR10-SSL.</i>  Test performance for classification with a varying number of
+                    labeled data.</figcaption>
+                <img src="resources/cifar.png" align="middle" style='max-width: 80%', width="480">
+            </center>
+            </figure>
+        </p>
+        <br>
+        <hr>
+        <br>
+        <h5>For additional results and detailed explanations please refer to the paper.</h5>
+        <br>
+        <hr>
+
+    <div class="section">
+        <h2>Bibtex</h2>
+        <hr>
+        <div class="bibtexsection">
+ @article{shamsian2023auxiliary,
+  title={Auxiliary Learning as an Asymmetric Bargaining Game},
+  author={Shamsian, Aviv and Navon, Aviv and Glazer, Neta and Kawaguchi, Kenji
+            and Chechik, Gal and Fetaya, Ethan},
+  journal={arXiv preprint arXiv:2301.13501},
+  year={2023}
+}
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+<hr>
+<footer>The website template is available at <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.</footer>
+
+</body>
+</html>
