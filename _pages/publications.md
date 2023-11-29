@@ -6,6 +6,57 @@ author_profile: true
 ---
 
 <p align="center">
+  <img src="/auxinash/resources/update_direction.png" width="550" />
+</p>
+<b>Auxiliary Learning as an Asymmetric Bargaining Game.</b>
+<br>ICML, 2023.<br>
+<!-- <br> -->
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+Neta Glazer,
+[Kenji Kawaguchi](https://www.comp.nus.edu.sg/cs/people/kenji/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2301.13501)
+[[project page]](https://avivsham.github.io/auxinash/)
+<!-- [[video]](https://slideslive.com/38983842/multitask-learning-as-a-bargaining-game)
+[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL-poster.pdf) -->
+[[code]](https://github.com/AvivSham/auxinash)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/auxi-nash.bib)
+</span>
+
+
+---
+<p align="center">
+  <img src="/assets/publication/sym_new.png" width="550" />
+</p>
+<b>Equivariant Architectures for Learning in Deep Weight Spaces.</b>
+<br>ICML, 2023.<br>
+<b>Oral presentation.</b>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Haggai Maron](https://haggaim.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2301.12780)
+[[project page]](https://avivnavon.github.io/DWSNets/)
+[[video]](https://icml.cc/virtual/2023/oral/25528)
+[[poster]](https://icml.cc/media/PosterPDFs/ICML%202023/24582.png?t=1687508976.0894368)
+[[code]](https://github.com/AvivNavon/DWSNets)
+[[blog]](https://developer.nvidia.com/blog/designing-deep-networks-to-process-other-deep-networks/)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/dws-nets.bib)
+</span>
+
+
+---
+
+<p align="center">
   <img src="/assets/publication/composer.png" width="550" />
 </p>
 <b>COMPOSER: Compositional Reasoning of Group Activity in Videos with Keypoint-Only Modality.</b>
