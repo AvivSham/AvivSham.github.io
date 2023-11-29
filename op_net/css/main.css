@@ -1,0 +1,18 @@
+body {
+	margin: 20px;
+}
+h1 { margin: 25px 0; }
+#noa-pic {
+	background-color: #efefef;
+	width: 140px;
+	height: 130px;
+}
+.content {
+    
+}
+ul.publications, ul.publications li {
+  padding: 5px 0 10px;
+}
+ul.projects li {
+  padding: 5px 0 10px;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Learning Object Permanence From Video</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161854263-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161854263-1');
+  </script>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <!-- <h1>COMET</h1> -->
+        <b>
+          <h2 style="font-weight: bolder;">Learning Object Permanence From Video </h2>
+        </b>
+        <h4>Accepted to ECCV, 2020</h4>
+        <p>
+          <a href="https://avivsham.github.io/"> Aviv Shamsian </a>,
+          <a href="https://chechiklab.biu.ac.il/~ofrikleinfeld/"> Ofri Kleinfeld </a>,
+          <a href="http://www.cs.tau.ac.il/~gamir/"> Amir Globerson </a>,
+          <a href="https://chechiklab.biu.ac.il/~gal"> Gal Chechik</a>
+        </p>
+        <ul class="nav nav-pills">
+          <li class="nav-item" >
+            <a class="nav-link active" href="https://arxiv.org/abs/2003.10469">
+              <i class="fa fa-file-text"></i>
+              Paper
+            </a>
+          </li>
+          
+          <li class="nav-item ml-1 dropdown" style="cursor: pointer;">
+            <a class="nav-link" data-toggle="collapse" href="#DatasetLinks"> 
+              <i class="fa fa-database"></i>
+              Dataset
+            </a>
+            
+          </li>
+
+          <li class="nav-item float-right">
+            <a class="nav-link" href="https://github.com/ofrikleinfeld/ObjectPermanence">
+              <i class="fa fa-github"></i>
+              Code
+            </a>
+          </li>
+        </ul>
+        
+        <div class="collapse mt-3 ml-0 pl-0 card card-body" id="DatasetLinks">
+          <a class="dropdown-item" href="https://livebiuac-my.sharepoint.com/:u:/g/personal/aviv_shamsian_live_biu_ac_il/EXpwyuwQvhdMrnOW3byMznQBFLKo8YR7C4dGD8iIzqxe1Q?e=6CmN7R">
+            <i class="fa fa-download"></i>
+            Training set part 1 
+            <span class="float-right text-muted" style="font-size: 13px; font-family: monospace;">size 10.5GB</span>
+          </a>
+          <a class="dropdown-item" href="https://livebiuac-my.sharepoint.com/:u:/g/personal/aviv_shamsian_live_biu_ac_il/ETkMqR9YBAVIq1gYq5g1C_QB_kp4VeD-FcZKPoJR_TtKVA?e=Sc6ITh">
+            <i class="fa fa-download"></i>
+            Training set part 2
+            <span class="float-right text-muted" style="font-size: 13px; font-family: monospace;">size 8.33GB</span>
+          </a>
+          <a class="dropdown-item" href="https://livebiuac-my.sharepoint.com/:u:/g/personal/aviv_shamsian_live_biu_ac_il/EfRaEebOq_RIsJ5_3fiY1T0BMrCZ82lcqPQkNpBr0vqPpw?e=Ko5ki3">
+            <i class="fa fa-download"></i>
+            Validation set
+            <span class="float-right text-muted" style="font-size: 13px; font-family: monospace;">size 6.80GB</span>
+          </a>
+          <a class="dropdown-item" href="https://livebiuac-my.sharepoint.com/:u:/g/personal/aviv_shamsian_live_biu_ac_il/EbpIL4SqxARAmQLiPP1vs30BQbg38_t09iQvoHvVUFxd0Q?e=DKcRh3">
+            <i class="fa fa-download"></i>
+            Test set
+            <span class="float-right text-muted" style="font-size: 13px; font-family: monospace;">size 2.80GB</span>
+          </a>
+          </a>
+          <a class="dropdown-item" href="https://livebiuac-my.sharepoint.com/:u:/g/personal/aviv_shamsian_live_biu_ac_il/EVwWjNvmO9BGulmX88G4cA4ByVAdmywNCCl0wg90AR928g?e=10jSWH">
+            <i class="fa fa-download"></i>
+            Trained models
+            <span class="float-right text-muted" style="font-size: 13px; font-family: monospace;">size 305MB</span>
+          </a>
+
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-6 text-centre mt-5">
+        <img class="img-fluid" id="model_img" src="arch_rev_3.png" height="150px"/>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6 content text-centre">
+        <!-- <h4>Abstract</h4> -->
+        <div>
+
+          <h3>Video</h3>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="rounded embed-responsive-item" src="https://www.youtube.com/embed/O7dTgGTQiKA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+        </div>
+        <div>
+          <br>
+          <h3>Abstract</h3>
+          <p style="text-align: justify;">
+            Object Permanence allows people to reason about the location of non-visible objects, by understanding that
+            they continue to exist even when not perceived directly. Object Permanence is critical for building a model
+            of the world, since objects in natural visual scenes dynamically occlude and contain each-other. Intensive
+            studies in developmental psychology suggest that object permanence is a challenging task that is learned
+            through extensive experience.
+            <br>
+            <br>
+            We introduce three main novel contributions: <br>
+            (1) Conceptualizing that localizing non-visible objects
+            requires two types of reasoning: about occluded objects and about carried ones.<br>
+            (2) define four subtypes of localization tasks and introduce annotations for the CATER dataset to facilitate evaluating each of these
+            subtasks.<br>
+            (3) We describe a new unified architecture (OPNet) for all four subtasks, which can capture the
+            two types of reasoning.
+          </p>
+        </div>
+
+        <!--<h5>Reasoning about Non-Visible Objects</h5>-->
+        <!--<p>-->
+        <!--We define four localization tasks: (1) Localizing a visible object which we define as an object-->
+        <!--</p>-->
+
+        <style>
+          p.mono {
+            font-family: "Courier New", Courier, monospace;
+          }
+        </style>
+
+        <h3>Cite our paper</h3>
+        <p class="mono">
+        @article{shamsian2020learning,
+ 	title={Learning Object Permanence from Video},
+  	author={Shamsian, Aviv and Kleinfeld, Ofri and Globerson, Amir and Chechik, Gal},
+  	journal={arXiv preprint arXiv:2003.10469},
+ 	year={2020}
+	}
+      </div>
+    </div>
+    <footer class="row">
+      <div class="col">
+        <hr />
+
+      </div>
+    </footer>
+  </div>
+  <!--     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
