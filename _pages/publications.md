@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <p align="center">
-  <img src="/DWSNets/resources/sym_new.png" width="550" />
+  <img src="/assets/publication/disclip_method.png" width="550" />
 </p>
 <b>DisCLIP: Open-Vocabulary Referring Expression Generation.</b>
 <br>BMVC, 2023.<br>
