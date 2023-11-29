@@ -20,7 +20,6 @@ Eitan Shaar<a>\*</a>,
 [Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
 <br>
 [[paper]](https://arxiv.org/abs/2305.19108)
-[[project page]](https://avivnavon.github.io/DWSNets/)
 [[code]](https://github.com/dekelio/disclip-open-vocab-reg/)
 [[bibtex]](https://raw.githubusercontent.com/avivsham/avivsham.github.io/master/bib/disclip.bib)
 </span>
@@ -236,8 +235,6 @@ Aviv Shamsian
 <br>
 [[paper]](https://arxiv.org/abs/2306.13264)
 </span>
-
----
 
 ---
 
