@@ -199,7 +199,7 @@ Neta Glazer,
 <br>(* equal contribution)
 <br>
 [[paper]](https://arxiv.org/abs/2003.10469) 
-[[project page]](https://chechiklab.biu.ac.il/~avivshamsian/OP/OP_HTML.html)
+[[project page]](https://avivsham.github.io/op_net/)
 [[code]](https://github.com/ofrikleinfeld/ObjectPermanence)
 [[bibtex]](/bib/object_permanence.bib)
 </span>
