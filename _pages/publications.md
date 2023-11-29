@@ -204,3 +204,56 @@ Neta Glazer,
 [[bibtex]](/bib/object_permanence.bib)
 </span>
 
+---
+
+# Preprint
+
+---
+
+<b>Open-vocabulary Keyword-spotting with Adaptive Instance Normalization.</b>
+<br>Preprint, 2023.<br>
+<span style="font-size:.8em;">
+Aviv Navon,
+Aviv Shamsian,
+Neta Glazer, 
+Gill Hetz,
+Joseph Keshet
+<br>
+[[paper]](https://arxiv.org/abs/2309.08561)
+</span>
+
+---
+
+<b>FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning.</b>
+<br>Preprint, 2023.<br>
+<span style="font-size:.8em;">
+Rishub Tamirisa,
+Chulin Xie, 
+Wenxuan Bao,
+Andy Zhou,
+Ron Arel,
+Aviv Shamsian
+<br>
+[[paper]](https://arxiv.org/abs/2306.13264)
+</span>
+
+---
+
+---
+
+<b>LipVoicer: Generating Speech from Silent Videos Guided by Lip Reading
+.</b>
+<br>Preprint, 2023.<br>
+<span style="font-size:.8em;">
+Yochai Yemini,
+Aviv Shamsian, 
+Lior Bracha,
+Sharon Gannot,
+Ethan Fetaya
+<br>
+[[paper]](https://arxiv.org/abs/2306.03258)
+[project page](https://lipvoicer.github.io/)
+</span>
+
+---
+
