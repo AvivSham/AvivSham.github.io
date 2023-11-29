@@ -6,6 +6,27 @@ author_profile: true
 ---
 
 <p align="center">
+  <img src="/DWSNets/resources/sym_new.png" width="550" />
+</p>
+<b>DisCLIP: Open-Vocabulary Referring Expression Generation.</b>
+<br>BMVC, 2023.<br>
+<b>Oral presentation.</b>
+<br>
+<span style="font-size:.8em;">
+[Lior Bracha<a>\*</a>](https://chechiklab.biu.ac.il/~brachalior/),
+Eitan Shaar<a>\*</a>,
+[Aviv Shamsian](https://avivsham.github.io/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+<br>
+[[paper]](https://arxiv.org/abs/2305.19108)
+[[project page]](https://avivnavon.github.io/DWSNets/)
+[[code]](https://github.com/dekelio/disclip-open-vocab-reg/)
+[[bibtex]](https://raw.githubusercontent.com/avivsham/avivsham.github.io/master/bib/disclip.bib)
+</span>
+
+---
+<p align="center">
   <img src="/auxinash/resources/update_direction.png" width="550" />
 </p>
 <b>Auxiliary Learning as an Asymmetric Bargaining Game.</b>
