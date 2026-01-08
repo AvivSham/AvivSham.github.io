@@ -6,25 +6,6 @@ author_profile: true
 ---
 
 <p align="center">
-  <img src="/assets/publication/whisper_medusa.png" width="550" />
-</p>
-<b>Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR.</b>
-<br>ICASSP, 2025.<br>
-<br>
-<span style="font-size:.8em;">
-Yael Segal-Feldman,
-[Aviv Shamsian](https://avivsham.github.io/),
-[Aviv Navon](https://avivnavon.github.io/),
-Gill Hetz,
-[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
-<br>
-[[paper]](https://arxiv.org/abs/2410.13946)
-[[bibtex]](/bib/whisper_medusa.bib)
-</span>
-
----
-
-<p align="center">
   <img src="/assets/publication/whisper_ner.png" width="550" />
 </p>
 <b>WhisperNER: Unified Open Named Entity and Speech Recognition.</b>
@@ -83,6 +64,22 @@ Gill Hetz,
 <br>
 [[paper]](https://arxiv.org/abs/2506.09874)
 [[bibtex]](/bib/umbra_tts.bib)
+</span>
+
+---
+
+<b>Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR.</b>
+<br>ICASSP, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+Yael Segal-Feldman,
+[Aviv Shamsian](https://avivsham.github.io/),
+[Aviv Navon](https://avivnavon.github.io/),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2410.13946)
+[[bibtex]](/bib/whisper_medusa.bib)
 </span>
 
 ---
