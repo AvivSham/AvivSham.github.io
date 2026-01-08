@@ -5,6 +5,40 @@ permalink: /publications/
 author_profile: true
 ---
 
+<b>Improved Generalization of Weight Space Networks via Augmentations.</b>
+<br>ICML, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[David W Zhang](https://scholar.google.com/citations?user=t2nF0GMAAAAJ),
+[Yan Zhang](https://scholar.google.com/citations?user=rH-vJjkAAAAJ),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Haggai Maron](https://haggaim.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2402.04081)
+[[bibtex]](/bib/improved_generalization.bib)
+</span>
+
+---
+
+<b>Keyword-guided Adaptation of Automatic Speech Recognition.</b>
+<br>InterSpeech, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2408.00842)
+[[bibtex]](/bib/keyword_adaptation.bib)
+</span>
+
+---
+
 <p align="center">
   <img src="/assets/publication/disclip_method.png" width="550" />
 </p>
