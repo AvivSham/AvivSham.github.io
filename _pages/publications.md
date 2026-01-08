@@ -5,6 +5,76 @@ permalink: /publications/
 author_profile: true
 ---
 
+<b>Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR.</b>
+<br>ICASSP, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+Yael Segal-Feldman,
+[Aviv Shamsian](https://avivsham.github.io/),
+[Aviv Navon](https://avivnavon.github.io/),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2410.13946)
+[[bibtex]](/bib/whisper_medusa.bib)
+</span>
+
+---
+
+<b>WhisperNER: Unified Open Named Entity and Speech Recognition.</b>
+<br>ASRU, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+Gil Ayache,
+Menachem Pirchi,
+[Aviv Navon](https://avivnavon.github.io/),
+[Aviv Shamsian](https://avivsham.github.io/),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2409.08107)
+[[bibtex]](/bib/whisper_ner.bib)
+</span>
+
+---
+
+<b>Target Speaker Extraction with Flow Matching.</b>
+<br>InterSpeech, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon](https://avivnavon.github.io/),
+[Aviv Shamsian](https://avivsham.github.io/),
+Yael Segal-Feldman,
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2505.14465)
+[[bibtex]](/bib/target_speaker.bib)
+</span>
+
+---
+
+<b>UmbraTTS: Adapting Text-to-Speech to Environmental Contexts with Flow Matching.</b>
+<br>ICML WMLA, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+[Aviv Navon](https://avivnavon.github.io/),
+Yael Segal,
+[Aviv Shamsian](https://avivsham.github.io/),
+Hilit Segev,
+Asaf Buchnick,
+Menachem Pirchi,
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2506.09874)
+[[bibtex]](/bib/umbra_tts.bib)
+</span>
+
+---
+
 <b>Improved Generalization of Weight Space Networks via Augmentations.</b>
 <br>ICML, 2024.<br>
 <br>
