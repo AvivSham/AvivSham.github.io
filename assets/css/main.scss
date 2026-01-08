@@ -1,0 +1,162 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom color scheme with dark/light mode support */
+
+/* Light mode - warmer accent colors */
+:root {
+  --primary-color: #0d9488; /* Teal - professional but warmer */
+  --link-color: #0d9488;
+  --link-color-hover: #0f766e;
+  --link-color-visited: #115e59;
+}
+
+/* Apply custom colors to links */
+a {
+  color: var(--link-color);
+
+  &:visited {
+    color: var(--link-color-visited);
+  }
+
+  &:hover {
+    color: var(--link-color-hover);
+  }
+}
+
+/* Button colors */
+.btn--primary {
+  background-color: var(--primary-color) !important;
+
+  &:hover {
+    background-color: var(--link-color-hover) !important;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1a1a1a;
+    --text-color: #e5e5e5;
+    --primary-color: #14b8a6; /* Lighter teal for better contrast */
+    --link-color: #5eead4;
+    --link-color-hover: #99f6e4;
+    --link-color-visited: #2dd4bf;
+    --muted-text-color: #9ca3af;
+    --border-color: #374151;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  /* Page background */
+  .page {
+    background-color: var(--background-color);
+  }
+
+  /* Sidebar */
+  .sidebar {
+    background-color: #262626;
+    border-right: 1px solid var(--border-color);
+  }
+
+  /* Navigation */
+  .greedy-nav {
+    background: #262626;
+
+    a {
+      color: var(--text-color);
+
+      &:hover {
+        color: var(--link-color);
+      }
+    }
+
+    .visible-links a {
+      &:before {
+        background: var(--link-color);
+      }
+    }
+  }
+
+  /* Masthead */
+  .masthead {
+    background-color: #262626;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  /* Footer */
+  .page__footer {
+    background-color: #262626;
+    color: var(--muted-text-color);
+  }
+
+  /* Archive items */
+  .archive__item-title {
+    color: var(--text-color);
+  }
+
+  .archive__item-excerpt {
+    color: var(--muted-text-color);
+  }
+
+  /* Pagination */
+  .pagination {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+
+    a {
+      color: var(--link-color);
+    }
+  }
+
+  /* Code blocks */
+  code {
+    background-color: #374151;
+    color: #e5e5e5;
+  }
+
+  pre {
+    background-color: #1f2937;
+    border: 1px solid var(--border-color);
+  }
+
+  /* Tables */
+  table {
+    border: 1px solid var(--border-color);
+
+    thead {
+      background-color: #262626;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    td, th {
+      border: 1px solid var(--border-color);
+    }
+  }
+
+  /* Notices */
+  .notice {
+    background-color: #262626;
+    border-left: 4px solid var(--link-color);
+  }
+}
+
+/* Additional accent color for highlights - coral */
+.highlight-accent {
+  color: #f97316;
+}
+
+@media (prefers-color-scheme: dark) {
+  .highlight-accent {
+    color: #fb923c;
+  }
+}
