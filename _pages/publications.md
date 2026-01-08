@@ -39,6 +39,73 @@ Gill Hetz,
 
 ---
 
+<b>Equivariant Deep Weight Space Alignment.</b>
+<br>ICML, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Nadav Dym](https://sites.google.com/view/nadavdym),
+[Haggai Maron](https://haggaim.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2310.01307)
+[[bibtex]](/bib/equivariant_alignment.bib)
+</span>
+
+---
+
+<b>LipVoicer: Generating Speech from Silent Videos Guided by Lip Reading.</b>
+<br>ICLR, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Yochai Yemini](https://scholar.google.com/citations?user=iNc-KFUAAAAJ),
+[Aviv Shamsian](https://avivsham.github.io/),
+[Lior Bracha](https://chechiklab.biu.ac.il/~brachalior/),
+[Sharon Gannot](https://www.eng.biu.ac.il/gannot/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2306.03258)
+[[project page]](https://lipvoicer.github.io/)
+[[bibtex]](/bib/lipvoicer.bib)
+</span>
+
+---
+
+<b>FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning.</b>
+<br>CVPR, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+Rishub Tamirisa,
+Chulin Xie,
+Wenxuan Bao,
+Andy Zhou,
+Ron Arel,
+[Aviv Shamsian](https://avivsham.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2306.13264)
+[[bibtex]](/bib/fedselect.bib)
+</span>
+
+---
+
+<b>Open-Vocabulary Keyword-Spotting with Adaptive Instance Normalization.</b>
+<br>ICASSP, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2309.08561)
+[[bibtex]](/bib/open_vocab_kws.bib)
+</span>
+
+---
+
 <p align="center">
   <img src="/assets/publication/disclip_method.png" width="550" />
 </p>
