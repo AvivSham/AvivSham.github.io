@@ -5,6 +5,177 @@ permalink: /publications/
 author_profile: true
 ---
 
+<b>Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR.</b>
+<br>ICASSP, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+Yael Segal-Feldman,
+[Aviv Shamsian](https://avivsham.github.io/),
+[Aviv Navon](https://avivnavon.github.io/),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2410.13946)
+[[bibtex]](/bib/whisper_medusa.bib)
+</span>
+
+---
+
+<b>WhisperNER: Unified Open Named Entity and Speech Recognition.</b>
+<br>ASRU, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+Gil Ayache,
+Menachem Pirchi,
+[Aviv Navon](https://avivnavon.github.io/),
+[Aviv Shamsian](https://avivsham.github.io/),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2409.08107)
+[[bibtex]](/bib/whisper_ner.bib)
+</span>
+
+---
+
+<b>Target Speaker Extraction with Flow Matching.</b>
+<br>InterSpeech, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon](https://avivnavon.github.io/),
+[Aviv Shamsian](https://avivsham.github.io/),
+Yael Segal-Feldman,
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2505.14465)
+[[bibtex]](/bib/target_speaker.bib)
+</span>
+
+---
+
+<b>UmbraTTS: Adapting Text-to-Speech to Environmental Contexts with Flow Matching.</b>
+<br>ICML WMLA, 2025.<br>
+<br>
+<span style="font-size:.8em;">
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+[Aviv Navon](https://avivnavon.github.io/),
+Yael Segal,
+[Aviv Shamsian](https://avivsham.github.io/),
+Hilit Segev,
+Asaf Buchnick,
+Menachem Pirchi,
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2506.09874)
+[[bibtex]](/bib/umbra_tts.bib)
+</span>
+
+---
+
+<b>Improved Generalization of Weight Space Networks via Augmentations.</b>
+<br>ICML, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[David W Zhang](https://scholar.google.com/citations?user=t2nF0GMAAAAJ),
+[Yan Zhang](https://scholar.google.com/citations?user=rH-vJjkAAAAJ),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Haggai Maron](https://haggaim.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2402.04081)
+[[bibtex]](/bib/improved_generalization.bib)
+</span>
+
+---
+
+<b>Keyword-guided Adaptation of Automatic Speech Recognition.</b>
+<br>InterSpeech, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2408.00842)
+[[bibtex]](/bib/keyword_adaptation.bib)
+</span>
+
+---
+
+<b>Equivariant Deep Weight Space Alignment.</b>
+<br>ICML, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Nadav Dym](https://sites.google.com/view/nadavdym),
+[Haggai Maron](https://haggaim.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2310.01307)
+[[bibtex]](/bib/equivariant_alignment.bib)
+</span>
+
+---
+
+<b>LipVoicer: Generating Speech from Silent Videos Guided by Lip Reading.</b>
+<br>ICLR, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Yochai Yemini](https://scholar.google.com/citations?user=iNc-KFUAAAAJ),
+[Aviv Shamsian](https://avivsham.github.io/),
+[Lior Bracha](https://chechiklab.biu.ac.il/~brachalior/),
+[Sharon Gannot](https://www.eng.biu.ac.il/gannot/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2306.03258)
+[[project page]](https://lipvoicer.github.io/)
+[[bibtex]](/bib/lipvoicer.bib)
+</span>
+
+---
+
+<b>FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning.</b>
+<br>CVPR, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+Rishub Tamirisa,
+Chulin Xie,
+Wenxuan Bao,
+Andy Zhou,
+Ron Arel,
+[Aviv Shamsian](https://avivsham.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2306.13264)
+[[bibtex]](/bib/fedselect.bib)
+</span>
+
+---
+
+<b>Open-Vocabulary Keyword-Spotting with Adaptive Instance Normalization.</b>
+<br>ICASSP, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Neta Glazer](https://scholar.google.com/citations?user=QdYH2GYAAAAJ),
+Gill Hetz,
+[Joseph Keshet](https://u.cs.biu.ac.il/~jkeshet/)
+<br>
+[[paper]](https://arxiv.org/abs/2309.08561)
+[[bibtex]](/bib/open_vocab_kws.bib)
+</span>
+
+---
+
 <p align="center">
   <img src="/assets/publication/disclip_method.png" width="550" />
 </p>
@@ -206,51 +377,6 @@ Neta Glazer,
 ---
 
 # Preprint
-
----
-
-<b>Open-vocabulary Keyword-spotting with Adaptive Instance Normalization.</b>
-<br>Preprint, 2023.<br>
-<span style="font-size:.8em;">
-Aviv Navon,
-Aviv Shamsian,
-Neta Glazer, 
-Gill Hetz,
-Joseph Keshet
-<br>
-[[paper]](https://arxiv.org/abs/2309.08561)
-</span>
-
----
-
-<b>FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning.</b>
-<br>Preprint, 2023.<br>
-<span style="font-size:.8em;">
-Rishub Tamirisa,
-Chulin Xie, 
-Wenxuan Bao,
-Andy Zhou,
-Ron Arel,
-Aviv Shamsian
-<br>
-[[paper]](https://arxiv.org/abs/2306.13264)
-</span>
-
----
-
-<b>LipVoicer: Generating Speech from Silent Videos Guided by Lip Reading
-.</b>
-<br>Preprint, 2023.<br>
-<span style="font-size:.8em;">
-Yochai Yemini,
-Aviv Shamsian, 
-Lior Bracha,
-Sharon Gannot,
-Ethan Fetaya
-<br>
-[[paper]](https://arxiv.org/abs/2306.03258)
-[project page](https://lipvoicer.github.io/)
-</span>
 
 ---
 

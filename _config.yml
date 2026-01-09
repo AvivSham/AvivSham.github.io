@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Aviv Shamsian"
   avatar : "/assets/images/profile_.jpg"
-  bio    : "PhD Candidate at BIU // Computer Vision Researcher"
+  bio    : "PhD // Data Science Tech Lead at aiOla"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
