@@ -5,6 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
+<p align="center">
+  <img src="/assets/publication/whisper_medusa.png" width="550" />
+</p>
 <b>Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR.</b>
 <br>ICASSP, 2025.<br>
 <br>
@@ -21,6 +24,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/whisper_ner.png" width="550" />
+</p>
 <b>WhisperNER: Unified Open Named Entity and Speech Recognition.</b>
 <br>ASRU, 2025.<br>
 <br>
@@ -38,6 +44,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/target_speaker.png" width="550" />
+</p>
 <b>Target Speaker Extraction with Flow Matching.</b>
 <br>InterSpeech, 2025.<br>
 <br>
@@ -55,6 +64,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/umbra_tts.png" width="550" />
+</p>
 <b>UmbraTTS: Adapting Text-to-Speech to Environmental Contexts with Flow Matching.</b>
 <br>ICML WMLA, 2025.<br>
 <br>
@@ -75,6 +87,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/improved_generalization.png" width="550" />
+</p>
 <b>Improved Generalization of Weight Space Networks via Augmentations.</b>
 <br>ICML, 2024.<br>
 <br>
@@ -93,6 +108,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/keyword_adaptation.png" width="550" />
+</p>
 <b>Keyword-guided Adaptation of Automatic Speech Recognition.</b>
 <br>InterSpeech, 2024.<br>
 <br>
@@ -109,6 +127,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/equivariant_alignment.png" width="550" />
+</p>
 <b>Equivariant Deep Weight Space Alignment.</b>
 <br>ICML, 2024.<br>
 <br>
@@ -126,6 +147,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/lipvoicer.png" width="550" />
+</p>
 <b>LipVoicer: Generating Speech from Silent Videos Guided by Lip Reading.</b>
 <br>ICLR, 2024.<br>
 <br>
@@ -143,6 +167,9 @@ Gill Hetz,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/fedselect.png" width="550" />
+</p>
 <b>FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning.</b>
 <br>CVPR, 2024.<br>
 <br>
@@ -160,6 +187,9 @@ Ron Arel,
 
 ---
 
+<p align="center">
+  <img src="/assets/publication/open_vocab_kws.png" width="550" />
+</p>
 <b>Open-Vocabulary Keyword-Spotting with Adaptive Instance Normalization.</b>
 <br>ICASSP, 2024.<br>
 <br>
